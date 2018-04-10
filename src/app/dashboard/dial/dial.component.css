@@ -1,0 +1,89 @@
+/* @mixin size($w, $h:$w) {
+  width: $w;
+  height: $h;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body {
+  @include size(100%);
+  margin: 0;
+  @include flex-center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#info {
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  color: white;
+  left: 10px;
+  top: 10px;
+  font-weight : 100;
+  
+  h4 {
+    letter-spacing: 1px;
+    margin: 0 10px;
+    font-weight : 400;
+  }
+  
+  .speed {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+#pedal {  
+  position: absolute;
+  color: white;
+  right: 20px;
+  bottom: 10px;
+  cursor: pointer;
+  
+  *{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    text-align: center;
+    transition: 0.5s;
+    
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
+
+#light {
+  position: absolute;
+  color: white;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+  
+  *{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    text-align: center;
+    transition: 0.5s;
+    
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+} */
+
+#app {
+  background-color: #222;
+}
